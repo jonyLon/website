@@ -11,39 +11,39 @@ document.getElementById('saveChanges').addEventListener('click', function () {
 });
 
 
-const btn = document.getElementById('modal-button');
+// const btn = document.getElementById('modal-button');
 
-btn.addEventListener('click', event => {
-  openModal()
-});
+// btn.addEventListener('click', event => {
+//   openModal()
+// });
 
-// Get the modal element
-var modal = document.getElementById('modal');
+// // Get the modal element
+// var modal = document.getElementById('modal');
 
-// Get the <span> element that closes the modal
-var closeBtn = document.getElementsByClassName('close')[0];
+// // Get the <span> element that closes the modal
+// var closeBtn = document.getElementsByClassName('close')[0];
 
-// When the user clicks on <span> (x), close the modal
-closeBtn.onclick = function () {
-  modal.style.display = 'none';
-};
+// // When the user clicks on <span> (x), close the modal
+// closeBtn.onclick = function () {
+//   modal.style.display = 'none';
+// };
 
-// Open the modal
-function openModal() {
-  modal.style.display = 'block';
-}
+// // Open the modal
+// function openModal() {
+//   modal.style.display = 'block';
+// }
 
-// Close the modal if the user clicks outside of it
-window.onclick = function (event) {
-  if (event.target == modal) {
-    modal.style.display = 'none';
-  }
-};
+// // Close the modal if the user clicks outside of it
+// window.onclick = function (event) {
+//   if (event.target == modal) {
+//     modal.style.display = 'none';
+//   }
+// };
 
-const notify = document.getElementsByClassName("notify")[0];
-const subbtn = document.getElementById("seve_ch");
-const fullname = document.getElementById("full-name");
-subbtn.addEventListener('click', event => {
-  // event.preventDefault();
-  notify.textContent = `Дякую ${fullname.value} ваша заявка прийнята.`
-})
+// const notify = document.getElementsByClassName("notify")[0];
+// const subbtn = document.getElementById("seve_ch");
+// const fullname = document.getElementById("full-name");
+// subbtn.addEventListener('click', event => {
+//   // event.preventDefault();
+//   notify.textContent = `Дякую ${fullname.value} ваша заявка прийнята.`
+// })
