@@ -15,7 +15,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5);
 } */
 
-.modal {
+/* .modal {
   display: none;
   position: absolute;
   top: 50%;
@@ -33,9 +33,9 @@ body {
 .modal-content {
   height: 300px;
   text-align: end;
-}
+} */
 
-.close {
+/* .close {
   position: absolute;
   top: 0px;
   right: 10px;
@@ -68,4 +68,4 @@ body {
 
 .notify {
   color: forestgreen;
-}
+} */

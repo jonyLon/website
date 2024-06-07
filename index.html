@@ -42,8 +42,8 @@
     <h1>headphones</h1>
     <img src=".\images\1_2794_43.jpg" alt="headphones">.
   </div>
-  <button id="modal-button">Click Me!</button>
-  <h4 class="notify"></h4>
+  <!-- <button id="modal-button" class="btn btn-success">Click Me!</button>
+
   <div id="modal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
@@ -57,6 +57,42 @@
         <input type="email" name="email-adr" id="email_adr"><br>
         <input id="sub-btn" type="submit" value="Відправити">
       </form>
+    </div>
+  </div> -->
+
+  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Launch demo modal
+  </button>
+  <h4 class="notify"></h4>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Введіть свої данні</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="InputFullName" class="form-label">ПІБ</label>
+              <input type="text" class="form-control" id="InputFullName">
+            </div>
+            <div class="mb-3">
+              <label for="InputNumber" class="form-label">Телефон</label>
+              <input type="text" class="form-control" id="InputNumber">
+            </div>
+            <div class="mb-3">
+              <label for="InputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" id="saveChanges">Save changes</button>
+        </div>
+      </div>
     </div>
   </div>
   <script src="js/main.js"></script>
